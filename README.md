@@ -1,1 +1,2 @@
-# SmallFunction
+> # SmallFunction
+小功能
