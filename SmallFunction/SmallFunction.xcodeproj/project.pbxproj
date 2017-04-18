@@ -33,6 +33,8 @@
 		0DCDC91B1EA0629F008005DD /* HX_NoDataImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DCDC91A1EA0629F008005DD /* HX_NoDataImage@2x.png */; };
 		0DCDC9211EA07130008005DD /* UIScrollView+HX_Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCDC9201EA07130008005DD /* UIScrollView+HX_Extend.m */; };
 		0DCDC9241EA07623008005DD /* HXSlideSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCDC9231EA07623008005DD /* HXSlideSegmentView.m */; };
+		0DCDC9271EA5A93F008005DD /* UIButton+HX_Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCDC9261EA5A93F008005DD /* UIButton+HX_Extend.m */; };
+		0DCDC92A1EA5B20A008005DD /* UIViewController+HX_Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCDC9291EA5B20A008005DD /* UIViewController+HX_Extend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +100,10 @@
 		0DCDC9201EA07130008005DD /* UIScrollView+HX_Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HX_Extend.m"; sourceTree = "<group>"; };
 		0DCDC9221EA07623008005DD /* HXSlideSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXSlideSegmentView.h; sourceTree = "<group>"; };
 		0DCDC9231EA07623008005DD /* HXSlideSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXSlideSegmentView.m; sourceTree = "<group>"; };
+		0DCDC9251EA5A93F008005DD /* UIButton+HX_Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HX_Extend.h"; sourceTree = "<group>"; };
+		0DCDC9261EA5A93F008005DD /* UIButton+HX_Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HX_Extend.m"; sourceTree = "<group>"; };
+		0DCDC9281EA5B20A008005DD /* UIViewController+HX_Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HX_Extend.h"; sourceTree = "<group>"; };
+		0DCDC9291EA5B20A008005DD /* UIViewController+HX_Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HX_Extend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +266,10 @@
 				0DCDC9181EA06099008005DD /* UIView+HX_Extend.m */,
 				0DCDC91F1EA07130008005DD /* UIScrollView+HX_Extend.h */,
 				0DCDC9201EA07130008005DD /* UIScrollView+HX_Extend.m */,
+				0DCDC9251EA5A93F008005DD /* UIButton+HX_Extend.h */,
+				0DCDC9261EA5A93F008005DD /* UIButton+HX_Extend.m */,
+				0DCDC9281EA5B20A008005DD /* UIViewController+HX_Extend.h */,
+				0DCDC9291EA5B20A008005DD /* UIViewController+HX_Extend.m */,
 			);
 			path = Extend;
 			sourceTree = "<group>";
@@ -426,6 +436,7 @@
 				0DCDC8A91E9F62CD008005DD /* ViewController.m in Sources */,
 				0DCDC8AF1E9F62CD008005DD /* SmallFunction.xcdatamodeld in Sources */,
 				0DCDC9021E9F6409008005DD /* HXCustomLabel.m in Sources */,
+				0DCDC92A1EA5B20A008005DD /* UIViewController+HX_Extend.m in Sources */,
 				0DCDC90D1E9F6467008005DD /* NSString+HX_Extend.m in Sources */,
 				0DCDC9211EA07130008005DD /* UIScrollView+HX_Extend.m in Sources */,
 				0DCDC8A61E9F62CD008005DD /* AppDelegate.m in Sources */,
@@ -433,6 +444,7 @@
 				0DCDC9241EA07623008005DD /* HXSlideSegmentView.m in Sources */,
 				0DCDC90E1E9F6467008005DD /* UIColor+HX_Extend.m in Sources */,
 				0DCDC8EF1E9F63B0008005DD /* HXTextFieldDelegate.m in Sources */,
+				0DCDC9271EA5A93F008005DD /* UIButton+HX_Extend.m in Sources */,
 				0DCDC90F1E9F6467008005DD /* UILabel+HX_Extend.m in Sources */,
 				0DCDC9131E9F648A008005DD /* HXAttributedMode.m in Sources */,
 				0DCDC8A31E9F62CD008005DD /* main.m in Sources */,
@@ -674,6 +686,7 @@
 				0DCDC8D01E9F62CD008005DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DCDC8D11E9F62CD008005DD /* Build configuration list for PBXNativeTarget "SmallFunctionTests" */ = {
 			isa = XCConfigurationList;
@@ -682,6 +695,7 @@
 				0DCDC8D31E9F62CD008005DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DCDC8D41E9F62CD008005DD /* Build configuration list for PBXNativeTarget "SmallFunctionUITests" */ = {
 			isa = XCConfigurationList;
@@ -690,6 +704,7 @@
 				0DCDC8D61E9F62CD008005DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
